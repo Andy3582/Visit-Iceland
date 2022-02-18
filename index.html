@@ -1,0 +1,449 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.5.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+     <script  src=" ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <script type="text/javascript"> 
+      function show_now() { 
+      var my_time = new Date();
+      document.getElementById('display').innerHTML=my_time
+      }
+      </script>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+<script type="text/javascript">
+  function show_alert()
+  {
+  alert("Test!");
+  }
+  
+  _spBodyOnLoadFunctionNames.push("show_alert")
+  </script>
+
+
+
+
+<style>
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  border-radius: 20px;
+  
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+}
+
+
+.fa-instagram {
+  background:red;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  width: 25px;
+  border-radius: 20px;
+  text-align: center;
+  right: 100px;
+  margin-left: 1090px;
+  
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 25px;
+  border-radius: 20px;
+  border-color: black;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+  
+  
+
+
+
+</style>
+
+
+
+       
+        
+
+
+    
+
+    
+</head>
+<body>
+  
+ 
+
+  <div id="fullwebpage"></div>
+  
+  
+
+
+  
+
+
+ 
+  
+
+ <img id="img"       src="C:\Users\user\Desktop\logo.iceland.jpg" > 
+
+  <video autoplay muted loop    id="bg-video">
+  <source src="C:\Users\user\Downloads\180607_A_086.mp4" type="video/mp4">
+
+  </video>
+
+  
+  
+  
+
+  
+
+
+   <div class="menu">
+  <nav role="navigation">
+
+
+    
+    
+
+    
+     
+    <input id="time" type=button value="show current time in Iceland" onclick="show_now();">
+    <div id=display></div>
+    
+
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+
+
+    <ul class="paneldrop">
+      <li id="navigation" ><a href="index.html">Home</a></li>
+      <li><a href="Informations.html">Informations</a>
+        <ul class="dropdown">
+          <li><a href="General Facts.html">General Facts</a></li>
+          <li><a href="Geography.html">Geography</a></li>
+          <li><a href="Traveling.html">Traveling</a></li>
+         </ul>
+         </li>
+      
+      <li><a href="Plan trip.html">Plan Trip</a>
+        <ul class="dropdown">
+          <li><a href="Accommodation.html">Accommodation</a></li>
+          <li><a href="Things to do.html">Things to do</a></li>
+          <li><a href="Visitors.html">Visitors</a></li>
+        </ul>
+        
+      </li>
+    
+    
+      <li><a href="Destinations.html">Destinations</a>
+        <ul class="dropdown">
+          <li><a href="Regions.html">Regions</a></li>
+          <li><a href="Parcs.html">Parcs</a></li>
+          <li><a href="Scenic Routes.html">Scenic Routes</a></li>
+        </ul>
+      </li>
+
+       <li><a href="Inspirations.html">Inspirations </a>
+        <ul class="dropdown">
+          <li><a href="Activities.html">Activities</a></li>
+          <li><a href="Experiences.html">Experiences</a></li>
+          <li><a href="Culture.html">Culture</a></li>
+        </ul>
+      </li>
+    
+          <li><a href="Galerie.html">Galerie</a>
+        <ul class="dropdown">
+          <li><a href="Galerie.html">Galerie</a></li>
+          
+         </ul>
+          </li>
+          </ul>
+          </nav>
+         </div>
+         
+
+        
+        <div id="fullpage">
+
+    
+         
+         <div  style="font-weight: bold;margin-left: 25px;text-decoration: underline;">  A QUICK SUMMARY ABOUT THIS UNCONVENTIONAL DESTINATION : <a href="https://www.snapchat.com" class="fa fa-snapchat-ghost"></a>      <a href="https://www.instagram.com" class="fa fa-instagram"></a>         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>                              </div>
+
+ <section class="section1"> 
+       
+<h1 style="font-size: 35px;color:white;text-align: center;padding: 10px;border: solid black 1px;background-color:black;width: 410px;position:absolute;left: 50%;"> Icelandic nature & wildlife</h1>
+<img id="nature"   src="C:\Users\user\Desktop\Iceland nature.jpg">
+
+  
+<p style="font-size: 25px;font-family: Arial, Helvetica, sans-serif;width: 420px;position: absolute;left: 30px;top: 135px;line-height: 40px;"> 
+
+  
+  
+ Nature is unspoilt, exotic and mystical with its spouting geysers, active volcanoes, tumbling waterfalls, towering mountains, vast lava plains and magical lakes. 
+  
+Iceland’s fjords, glaciers and highland plains present visitors with some of the most beautiful and enchanting places they will ever see, as well as a rare feeling of utter tranquillity. 
+
+Iceland supports a surprisingly diverse Nordic flora and fauna and is an ideal place for birdwatching enthusiasts, while also offering some of the world’s best whale watching destinations. </p>
+
+
+
+</section>
+
+<section class="section2">
+  <h1 class="ritalin" style="font-size: 35px;color:white;text-align: center;padding: 10px;border: solid black 1px;width: 500px;position: absolute;left: 25%;background-color: black;">Icelandic geology and geography</h1>
+<img id="geology"   src="C:\Users\user\Desktop\outdoor iceland.jpg">
+
+<p style="font-size: 25px;font-family: Arial, Helvetica, sans-serif;line-height: 40px;position: absolute;left: 30px;right: 30px;"> 
+  <br>
+  <br>
+
+ 
+  This destination attracts visitors all year round, not only thanks to its diversity in landscape, but also its vital energy and contrast of lights, shades and seasons that offer new discoveries with every visit.
+
+Iceland is the world’s youngest country from a geological point of view and is still growing: a volcanic eruption in 1963 formed Surtsey, a new island off the south shore of Iceland, and the latest eruption was in 2010 in Eyjafjallajökull glacier.
+
+The island is bustling with subterranean activity, and a boundless supply of geothermal heat is used for thermal spas, cheap house-heating and natural energy creation. Iceland is the world’s second biggest user of geothermal energy, producing as much as the United States of America and trailing only the People’s Republic of China.</p>
+</section>
+
+<section class="section3">
+<h1  style="font-size: 35px;color: white;text-align: center;padding: 10px;border: solid black;width: 450px;position:absolute;left: 70%;background-color: black;">Outdoor activities in Iceland</h1>
+<img id="outdoor" src="C:\Users\user\Desktop\iceland-trip-cost-main-1100x619.jpg"></img>
+<p style="font-size: 25px;font-family: Arial, Helvetica, sans-serif;line-height: 40px;width: 760px;position: absolute;right: 30px;">
+  <br>
+  <br>
+
+  
+  
+
+  For those on a quest for action, Iceland’s pristine nature offers great potential for outdoor activities such as snowmobiling, horse riding, cave exploring, hiking, swimming, skiing, river rafting, kayaking and mountain safaris on modified four-wheel drives, to name but a few.
+  Hiking gets you closer to the scenery than anything else in Iceland. In reserves and the couple of national parks you’ll find a few marked trails, though even here guideposts tend to be erratic and you’ll always need to be competent at using navigational aids, especially in poor weather.
+
+   However long you’re hiking for, always carry warm, weatherproof clothing, food and water (there are plenty of places where porous soil makes finding surface water unlikely), as well as a torch, lighter, penknife, first aid kit, a foil insulation blanket and a whistle or mirror for attracting attention. The country is carpeted in sharp rocks and rough ground, so good-quality, tough hiking boots are essential – though a pair of neoprene surf boots with thick soles are useful to ford rivers.
+</p>
+
+</section>
+
+ <section class="section4">
+<h1 style="font-size: 35px;color: white ;text-align: center;padding: 10px;border: solid black;width: 440px;position: absolute;left: 50%;background-color: black;">Icelandic culture & folklore</h1>
+<img id="festival"   src="C:\Users\user\Desktop\831e7153f4f0805178f94ad7815bc955.jpg">
+
+
+<p style="margin-left:25px;margin-right:25px;font-size: 25px;font-family: Arial, Helvetica, sans-serif;text-align: left;line-height: 40px;">
+  <br>
+  <br>
+  
+   While achieving a high standard of living and education, have kept true to their Viking heritage, traditions, history and folklore. The Icelandic countryside is dotted with habitats of elves and trolls and every region has a plethora of myths and legends, many of which are kept alive by monuments and plaques.
+
+Be sure to visit one of the museums dedicated to the Saga Age or some of the sites where the Sagas took place; both are available at several locations around Iceland.The coming of the Yule Lads marks the start of the Christmas season in Iceland. These thirteen brothers, who are direct descendants of trolls, live in dark deep caves in the mountains along with their ogre parents—their mother Grýla and their father Leppalúði—and the child-devouring Yule Cat.
+
+Originally, the Yule Lads were criminal pranksters who took turns sneaking into rural communities where they stole, pestered and plundered, and each had a descriptive name that reflected his favorite form of mischief.</p>
+</section>
+
+<section class="section5">
+<h1 style="font-size: 35px;margin-left:25px;color: white;text-align: center;padding: 10px;border: solid black;width: 300px;position: absolute;background-color: black;"> Reykjavík </h1>
+<p style="margin-left:25px;margin-right: 25px;font-size: 25px;font-family: Arial, Helvetica, sans-serif ;text-align: left;line-height: 40px;width: 700px;"> <img id="city" src="C:\Users\user\Desktop\60e2f1c693b49f0018ee07c8.jpg">
+  <br>
+  <br>
+  <br>
+  The Laugavegur shopping street is where it all begins. Connecting seamlessly with its sister streets Bankastræti and Austurstræti, this route is a pathway of local culture that every visitor to Iceland has to walk at least once; dotted with a myriad of shops, restaurants, galleries, cafés, bars and homes, Laugavegur serves as the very artery of the capital.
+
+  What’s more, is that these establishments are often found in the same building. This means that a single house can host a restaurant that turns into a club come nightfall, while the upper levels might be residential apartments. 
+  
+  The street itself was originally commissioned by the Reykjavík Poverty Committee in 1885, as a means to combat unemployment. With the centre of all businesses in Kvosin, Laugavegur served as the road by which one would reach the industrial harbour town from the countryside. 
+Reykjavík’s legendary nightlife is bolstered by year-round cultural and social events in addition to an abundance of first-class restaurants. The Reykjavik city centre is also compact enough to allow for easy navigation by foot.</p>
+</p>
+</section>
+
+<section class="section6">
+<h1 style="font-size: 35px;margin-left:80px;color:white; text-align:  center;padding: 10px;border: solid black;background-color: black;width: 300px;"> Weather & climate</h1>
+<img id="weather"        src="C:\Users\user\Desktop\weather.jpg">
+
+  
+<p style="font-size: 25px;font-family: Arial, Helvetica, sans-serif;line-height: 40px; position:absolute; width: 600px;right: 30px;">
+  <br>
+  
+  Iceland is warmer than its chilly name suggests. Warmed by the Gulf Stream, Icelandic winters are relatively mild, with average temperature in January 2004 about -0.2 °C.
+
+
+During the hardest winter months, Iceland is known for its limited sunlight, which coupled with the island’s northerly location, makes it one of the best places on earth to see the northern lights.
+ The best time to see this natural phenomenon is in the nighttime darkness from October through April, if the skies are clear of clouds.
+
+Meanwhile, summer in Iceland has temperatures around 12 - 13 °C and has abundant sunlight. May through August provides long days with bright nights, and the "midnight sun" phenonemon is especially prevalent in June. View our Iceland summer tours if you're interested.
+
+What do you want to see in Iceland? Browse our travel packages for inspiration, or talk to us about your travel needs.</p>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+        
+          
+
+
+
+
+  
+
+
+
+          
+   
+
+<div style="height: 50px;background-color: lightgray; border: solid 0,5px black;opacity: 0.7;">
+<footer style="text-align: center;font-size: x-large;height: 15px;">
+
+  Copyright © 2022 Ondrej Kralik 
+
+
+</footer>
+</div>
+
+
+
+      
+   
+    
+
+    
+</body>
+</html>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+    
